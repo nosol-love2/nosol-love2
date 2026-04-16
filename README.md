@@ -19,11 +19,36 @@ React · Vue · Astro 풀스택 + 비주얼 시스템 운영 · AI 워크플로 
 
 ---
 
-## 🎯 찾고 있는 포지션
+## 🎯 관심 포지션
 
-- **1인 웹팀 리드**
-- **웹 프로덕트 + Technical SEO 통합 담당**
-- 특히 **GEO 대응과 웹 자산 설계가 모두 필요한 환경**
+> **시니어 · 풀사이클 · 단독 책임형**을 전제로, 다음과 같이 **Technical SEO · GEO · 풀스택 · AI 워크플로**를 1인이 통합 책임하는 포지션에 관심이 있습니다.
+
+### 핵심 포지션
+
+- **Head of Web / Web Product Lead** — 브랜드 웹 자산 전체(사이트 · SEO · GEO · 비주얼 시스템 · 퍼포먼스)를 **1인 총괄**
+- **Principal Technical SEO · GEO Engineer** — 기술 SEO 인프라 + 생성형 검색 대응 체계를 **in-house로 설계·운영**
+- **AI-First Web Platform Lead** — Astro · React · Vue 기반 웹 플랫폼 + **LLM 워크플로 통합 설계**
+- **Full-stack Product Owner (Web)** — 풀스택 구현 + SEO/GEO + 비주얼 시스템까지 **end-to-end 오너십**
+
+### 인하우스 / 브랜드 그룹
+
+- **브랜드 그룹 인하우스 웹 디렉터** — 계열 N개 브랜드 사이트의 디자인 · 개발 · SEO 인프라 **통합 관리** *(현재 9개 브랜드 운영 중)*
+- **In-house Web Agency Lead** — 사내 에이전시 형태로 브랜드별 웹 자산을 **상시 운영 · 고도화**
+- **Technical SEO · GEO Strategist / Consultant** — 기업 단위 GEO 대응 **로드맵 설계 · 실행**
+
+### Growth / AI Automation
+
+- **Growth Engineer (SEO · GEO · AI)** — 기술 SEO/GEO 대응을 **AI 워크플로로 자동화**해 유기 유입 성장 주도
+- **AI Workflow Architect** — Python + LLM API 기반 업무/마케팅 자동화 **설계·운영**
+- **Founding / First Web Engineer** — 초기 조직에서 **CTO-트랙 웹 리드**로 합류, 웹 프로덕트 전 영역 책임
+
+### 기대하는 환경
+
+- **단독 판단 · 실행 권한**이 있는 자리
+- Technical SEO · GEO를 **전략 레벨로 다루는 조직**
+- 웹 자산이 **비즈니스 코어**인 환경 (브랜드/콘텐츠/리드 획득)
+- **멀티브랜드 · 멀티도메인** 운영 환경
+- 의사결정 루프가 짧고, **맡긴 일은 맡긴 사람이 끝내는** 문화
 
 ---
 
