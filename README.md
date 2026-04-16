@@ -1,107 +1,155 @@
-# Full-stack / AI Automation Engineer
+# 노한솔 · Web Product / Technical SEO / GEO
 
-LLM 기반 워크플로우 설계, 브라우저·데스크탑 자동화, 데이터 파이프라인, 풀스택 웹/모바일 애플리케이션을 end-to-end로 구현합니다.
-
----
-
-## Core Competencies
-
-| 영역 | 기술 |
-|---|---|
-| **Languages** | Python, TypeScript, JavaScript (Node.js), Dart |
-| **Frontend** | React, TypeScript, Vite, Tailwind CSS, Astro, Flutter, Electron |
-| **Backend** | FastAPI, Express.js, SQLAlchemy (async), Alembic |
-| **Databases** | PostgreSQL, SQLite (WAL), Redis |
-| **LLM / AI** | LLM API 연동, Prompt Engineering, SSE 스트리밍, Tool Use |
-| **Automation** | Playwright (CDP), Puppeteer, 데스크탑 GUI 자동화, FFmpeg |
-| **Data** | 공개 API 스크래핑, pandas, OCR, PDF 파싱 |
-| **Infra / DevOps** | Docker Compose, 프로세스 매니저(PM2), Alembic 마이그레이션, 터널링, JWT 인증 |
-| **Integrations** | 메시징 봇(Bot API), OAuth2, 클라우드 스토리지 API |
+**Technical SEO · GEO 중심 웹 프로덕트 담당**
+React · Vue · Astro 풀스택 + 비주얼 시스템 운영 · AI 워크플로 적극 활용
 
 ---
 
-## Representative Work
+## 👋 About
 
-### 1. LLM Orchestration Platform *(Full-stack)*
+안녕하세요. 웹 프로덕트 · 기술 SEO · GEO 통합 운영 담당으로 **5년차 커리어**를 이어오고 있는 **노한솔**입니다.
 
-LLM 기반 워크플로우를 시각적으로 설계·실행·개선하는 풀스택 애플리케이션.
+현재 재직 중인 회사에서 **SafeD 공식 홈페이지를 Astro 기반으로 0에서 100까지 단독 기획·설계·구축·배포**했으며, **대보그룹 계열 4개사**(대보그룹·한강에셋·대보건설·대보실업), **서원 브랜드 계열 4개**(서원힐스·서원식음료·서원레저·그린콘서트)까지 총 **9개 웹사이트를 상시 운영·유지보수**하고 있습니다.
 
-- **Frontend**: React + TypeScript + Vite, Zustand + TanStack Query, Tailwind
-- **Backend**: FastAPI + SQLAlchemy(async) + Alembic, PostgreSQL
-- **Infra**: JWT 인증, Docker Compose 멀티 서비스
-- **Highlights**:
-  - 다중 레이어 프롬프트 편집기 + 완성도 점수 알고리즘
-  - N-step 체인 실행 엔진 (이전 단계 출력 → 다음 단계 컨텍스트 자동 주입)
-  - 프롬프트 버전 히스토리 & Diff
-  - SSE 스트리밍으로 실행 진행률 실시간 표시
-  - Cron 기반 스케줄링 + 실패 시 지수 백오프 재시도
+`canonical` · `sitemap` · `robots` · `JSON-LD` 구조화 데이터 설계, **Google Search Console · 네이버 서치어드바이저 · 네이버 플레이스** 통합 운영까지 **Technical SEO 인프라 전반**을 직접 책임지고 있으며, 최근에는 **GEO(Generative Engine Optimization) 대응 체계 구축**까지 확장 중입니다.
 
-### 2. Project / Task 통합 대시보드 *(Full-stack SPA)*
+웹 에이전시에서 커리어를 시작해 **HTML · CSS · JavaScript 및 주요 프레임워크 기반 프론트엔드 개발**, 웹 호스팅·데이터베이스·백엔드 구조 이해를 갖추고 있어 **개발팀과의 기술 소통이 원활**합니다. **Python 을 활용한 업무 자동화**, **GPT · Gemini API 를 활용한 로컬 프로젝트 구현 경험**이 있어 **AI 활용 워크플로도 직접 설계**합니다.
 
-개인 생산성용 데이터 통합 대시보드.
-
-- Node.js + Express + SQLite(better-sqlite3, WAL)
-- 11개 라우트 모듈 · 13 테이블 · 25+ API · Vanilla JS SPA
-- 모바일 반응형 UI, 이미지 업로드(multer), 터널링으로 외부 접속 노출
-- 엔티티 간 다중 조인 스키마 설계 및 인덱스 최적화
-
-### 3. Autonomous Development Loop
-
-데이터베이스에서 작업 큐를 읽어 다음 태스크를 자동 판단하고, LLM CLI로 실행 → 버전 관리 커밋 → 반복하는 자율 실행 루프.
-
-- LLM 출력 형식을 스키마로 강제해 파싱 실패율 최소화
-- 프로젝트별 작업 디렉토리 격리, 사이클 단위 JSONL 로그
-- 안전 가드(최대 사이클 수·실행 타임아웃·작업 범위 제약)
-
-### 4. Multi-channel Service Automation
-
-수동 업무 전 과정을 메시징 → 처리 → 산출물 배포까지 자동화한 end-to-end 시스템.
-
-- 메시징 봇으로 24/7 요청 접수
-- 데스크탑 애플리케이션 GUI 자동화 기반 일괄 처리
-- 클라우드 스토리지 API로 폴더 생성·업로드·공유 링크 자동 발급
-- FFmpeg 기반 미디어 후처리 파이프라인 + 예약 배포
-
-### 5. Multi-source Data Aggregation Pipeline
-
-여러 소스에서 데이터를 병렬 수집·정규화·판정하는 파이프라인.
-
-- 다중 출처 병렬 스크래핑 (Playwright/HTTP)
-- 비전 모델 + OCR 기반 이미지 속성 추출
-- 이미지 처리 파이프라인 (배경 제거·합성·리사이즈)
-- 규칙 + LLM 하이브리드 판정 엔진
-
-### 6. Frontend QA Automation CLI
-
-Puppeteer 기반 프론트엔드 QA 자동화 CLI 툴.
-
-- 전 페이지 자동 크롤링 + 뷰포트별(desktop/tablet/mobile) 스크린샷
-- 리뷰 UI 자동 생성, 스크린샷 섹션 자동 감지, 코멘트·우선순위·카테고리 분류
-- 구조화 JSON export → LLM 수정 프롬프트로 직접 투입 가능
-- 시스템 PATH 등록, 단일 명령어 실행
-
-### 7. Cross-platform Mobile Routine App
-
-Flutter 크로스플랫폼 모바일 앱.
-
-- Flutter + Cloud Firestore + Riverpod
-- 텍스트 DSL 기반 일괄 등록(1줄 = 1항목) → 입력 비용 최소화
-- 고밀도 대시보드(고정 행 높이, 그룹 자동 분류)
-- 한국어 TTS 음성 가이드
-
-### 8. Business Automation Framework
-
-업무 자동 수집 + AI 리포트 생성 프레임워크 + **프로젝트 템플릿 생성기**.
-
-- OS 스케줄러 기반 정기 실행(수집/리포트)
-- 대화형 CLI로 동일 아키텍처 기반의 새 자동화 프로젝트를 즉시 스캐폴딩(메타 템플릿화)
+프리랜서 마케터 경력을 통해 **SNS 운영·광고 소재 제작·광고 집행** 경험이 있고, **스타트업 창업 교육 이수**를 통해 비즈니스 관점의 판단도 함께 갖추고 있습니다. 목적과 결과물에 대한 정의를 선행한 뒤 작업하는 방식을 선호하며, 이 과정에서 여러 직무의 언어를 이해하게 되어 **클라이언트 · 개발팀 · 디자인팀 사이의 소통을 자연스럽게 연결**합니다.
 
 ---
 
-## Engineering Principles
+## 🎯 찾고 있는 포지션
 
-- **Contract-first LLM 호출** — 출력 형식을 스키마로 강제해 자유도를 제한, 파싱 실패율 최소화
-- **로컬 우선 → 승격** — SQLite + 로컬 자동화로 시작해서 필요해지면 PostgreSQL/Docker로 승격
-- **단일 경로 원칙** — AI 호출·파일 경로·로깅 단일화로 중복 구현 제거 및 유지보수 비용 통제
-- **메타 템플릿화** — 검증된 자동화 아키텍처를 템플릿으로 떠서 다른 도메인에 재사용
-- **최소 단위 배포** — 한 번에 하나의 태스크, 마일스톤 게이트로 완료 확인 후 다음 단계 진행
+- **1인 웹팀 리드**
+- **웹 프로덕트 + Technical SEO 통합 담당**
+- 특히 **GEO 대응과 웹 자산 설계가 모두 필요한 환경**
+
+---
+
+## 💼 현재 운영 웹사이트 (9개)
+
+| 구분 | 역할 | 사이트 |
+|---|---|---|
+| **단독 구축** | 기획 → 설계 → 구축 → 배포 (Astro) | **SafeD 공식 홈페이지** |
+| **상시 운영 / 유지보수** | 프론트 · Technical SEO 인프라 관리 | **대보그룹** · 한강에셋 · 대보건설 · 대보실업 |
+| **상시 운영 / 유지보수** | 프론트 · Technical SEO 인프라 관리 | **서원힐스** · 서원식음료 · 서원레저 · 그린콘서트 |
+
+---
+
+## 🔍 Technical SEO · GEO
+
+- `<link rel="canonical">` · `sitemap.xml` · `robots.txt` · `JSON-LD` 구조화 데이터
+- Google Search Console · 네이버 서치어드바이저 · 네이버 플레이스
+- GEO(Generative Engine Optimization) 대응
+- Core Web Vitals · 색인 자동화 · 정적/SSR 하이브리드
+
+---
+
+## 🧰 Tech Spec
+
+```yaml
+Languages:       JavaScript, TypeScript, Python, HTML, CSS
+Frontend:        React, Vue, Astro, Tailwind CSS, Flutter
+Backend:         Node.js (Express), FastAPI, SQLAlchemy (async), Alembic
+Databases:       PostgreSQL, SQLite (WAL, better-sqlite3), Redis
+State / Data:    Zustand, TanStack Query, Riverpod
+LLM API:         GPT, Gemini, Claude (Anthropic SDK)
+Streaming:       SSE, WebSocket
+Auth:            JWT (HS256), OAuth2
+Automation:      Playwright (CDP), Puppeteer, PyAutoGUI
+Media:           FFmpeg, Pillow, rembg
+OCR / PDF:       Tesseract, pdfplumber
+Scheduling:      APScheduler, node-cron, OS Task Scheduler
+Infra:           Docker Compose, PM2, Cloudflare Tunnel
+Messaging:       Bot API, Slack Webhook
+Storage:         Cloud Storage API (OAuth2)
+Versioning:      Git (programmatic commit pipelines)
+```
+
+---
+
+## 📦 Side Projects — Technical Spec
+
+### A.
+
+```yaml
+Stack:        React 19 · TypeScript · Vite · Tailwind 4
+              · Zustand · TanStack Query v5
+              · FastAPI · SQLAlchemy (async) · Alembic · PostgreSQL 15
+Auth:         JWT (python-jose, HS256)
+Infra:        Docker Compose (3 services)
+Streaming:    SSE
+Scheduling:   APScheduler · Cron · exponential backoff retry
+Schema:       8 tables · UUID PK · soft delete · JSONB
+```
+
+### B.
+
+```yaml
+Stack:        Node.js · Express · SQLite (better-sqlite3, WAL) · Vanilla JS SPA
+Scale:        11 route modules · 13 tables · 25+ endpoints
+Upload:       multer
+Access:       터널링 (외부 노출)
+```
+
+### C.
+
+```yaml
+Stack:        Python 3.11+ · LLM CLI · SQLite · Git
+Pattern:      폴링 루프 · 스키마 강제 출력 파싱
+              · 프로젝트별 cwd 격리 · JSONL 사이클 로그
+Guards:       MAX_CYCLES · 타임아웃 · 작업 범위 제약
+```
+
+### D.
+
+```yaml
+Stack:        Python · Bot API · Desktop GUI Automation (PyAutoGUI)
+              · FFmpeg · Cloud Storage API (OAuth2)
+Pattern:      메시징 이벤트 → 파일 시스템 → GUI 자동화 → 미디어 후처리 → 배포 큐
+```
+
+### E.
+
+```yaml
+Stack:        Python · Playwright · HTTP clients · OCR · Vision API
+Pattern:      다중 소스 병렬 수집 · 정규화 · 규칙+LLM 하이브리드 판정
+```
+
+### F.
+
+```yaml
+Stack:        Puppeteer · React · Node.js CLI
+Features:     멀티 뷰포트(desktop/tablet/mobile) 자동 크롤링 및 스크린샷
+              · DOM 섹션 자동 감지 · 구조화 JSON export
+Distribution: 시스템 PATH 등록 CLI
+```
+
+### G.
+
+```yaml
+Stack:        Flutter · Cloud Firestore · Riverpod · TTS
+Pattern:      텍스트 DSL 파서 · 고밀도 반응형 UI
+```
+
+### H.
+
+```yaml
+Stack:        Python · OS Task Scheduler
+Pattern:      템플릿 엔진 기반 스캐폴딩 CLI · 대화형 프롬프트
+```
+
+---
+
+## 🧭 Working Principles
+
+- 목적·결과물 정의 선행 후 구현
+- Contract-first LLM 호출 (스키마 강제 출력)
+- 로컬 우선 → 필요 시 승격
+- 단일 경로 원칙 (AI 호출·경로·로깅)
+- 메타 템플릿화 (아키텍처 재사용)
+
+---
+
+<sub>감사합니다. 🙌</sub>
